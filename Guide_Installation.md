@@ -14,6 +14,7 @@ pip install matplotlib
 pip install seaborn
 pip install numpy
 pip install tkinterhtml
+pip install webview
 ```
 
 ## 3. Préparation des données
@@ -21,13 +22,14 @@ pip install tkinterhtml
 - Assurez-vous que le fichier CSV contient les colonnes : Company Name, Valuation ($B), Country, City, Industry, Select Investors, Latitude, Longitude
 
 ## 4. Lancement de l'application
-- Double-cliquez sur `interface222.py`
+- Double-cliquez sur `app.py`
 - Ou ouvrez un terminal et exécutez :
 ```bash
-python interface222.py
+python app.py
 ```
 
 ## En cas de problème
 - Vérifiez que Python est bien installé : `python --version`
 - Vérifiez que toutes les bibliothèques sont installées : `pip list`
 - Assurez-vous que le fichier CSV est présent et bien formaté
+- en cas de probleme avec webview , utlise ce commande `pip install pywebview`

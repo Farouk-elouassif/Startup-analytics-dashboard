@@ -1,5 +1,5 @@
-import customtkinter as ctk
 import pandas as pd 
+import customtkinter as ctk
 from datetime import datetime 
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg

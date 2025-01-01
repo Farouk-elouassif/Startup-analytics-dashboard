@@ -184,8 +184,8 @@ class DashboardSection:
             valuation_bins = [0, 1, 2, 5, 10, float('inf')]
             valuation_labels = ['0-1B', '1-2B', '2-5B', '5-10B', '10B+']
             self.data['Valuation_Category'] = pd.cut(self.data['Valuation ($B)'], 
-                                                 bins=valuation_bins, 
-                                                 labels=valuation_labels)
+                                                bins=valuation_bins, 
+                                                labels=valuation_labels)
             valuation_dist = self.data['Valuation_Category'].value_counts().sort_index()
             valuation_dist.plot(ax=ax1, kind='bar', color='#1a73e8')
             ax1.set_title("Valuation Distribution", pad=10)
